@@ -25,4 +25,13 @@
       </plugin>
     </plugins>
   </build>
+  <dependencies>
+	<dependency>
+		<groupId>owc-schema-jar</groupId>
+		<artifactId>owc-schema-jar</artifactId>
+		<scope>system</scope>
+		<version>1.0</version>
+		<systemPath>${basedir}\WebContent\WEB-INF\lib\owc-schema-jar-1.0.0-SNAPSHOT.jar</systemPath>
+	</dependency>
+</dependencies>
 </project>
