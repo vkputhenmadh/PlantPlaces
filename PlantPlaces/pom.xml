@@ -303,8 +303,9 @@
 		<dependency>
 			<groupId>com.test</groupId>
 			<artifactId>owc-schema-jar</artifactId>
-			<scope>compile</scope>
+			<scope>system</scope>
 			<version>1.0</version>
+			<systemPath>${project.basedir}\WebContent\WEB-INF\lib\owc-schema-jar-1.0.0-SNAPSHOT.jar</systemPath>
 		</dependency>
 
 		<dependency>
